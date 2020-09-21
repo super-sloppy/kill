@@ -9,6 +9,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c9cc8c62-adee-421d-a711-297f9c9a54e9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/wk/kill/server/config/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/wk/kill/server/config/ShiroConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/wk/kill/server/controller/KillController.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/wk/kill/server/controller/KillController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/wk/kill/server/service/Impl/KillService.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/wk/kill/server/service/Impl/KillService.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -303,7 +306,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599898952566</updated>
       <workItem from="1599898955130" duration="40613000" />
-      <workItem from="1600266652700" duration="21246000" />
+      <workItem from="1600266652700" duration="34561000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1600503325092</created>

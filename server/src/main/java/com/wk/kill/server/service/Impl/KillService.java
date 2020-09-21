@@ -50,16 +50,13 @@ public class KillService implements IKillService {
         if (itemKillSuccessMapper.countByKillUserId(killId,userId) <= 0){
             //TODO:查询待秒杀商品详情
             ItemKill itemKill=itemKillMapper.selectById(killId);
-
             //TODO:判断是否可以被秒杀canKill=1?
             if (itemKill!=null && 1==itemKill.getCanKill() ){
                 //TODO:扣减库存-减一
                 int res=itemKillMapper.updateKillItem(killId);
-
                 //TODO:扣减是否成功?是-生成秒杀成功的订单，同时通知用户秒杀成功的消息
                 if (res>0){
                     commonRecordKillSuccessInfo(itemKill,userId);
-
                     result=true;
                 }
             }
@@ -226,9 +223,6 @@ public class KillService implements IKillService {
                 mutex.release();
             }
         }
-
-
-
 
         return result;
     }
